@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.inside-block {
+    background-color: #eaeaea;
+    width: 100%;
+    min-height: 500px;
+}
+
+.inside {
+    width: 80%;
+    min-height: 150px;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px dotted red;
+}
+
+header {
+    padding-top: 130px;
+    min-height: 610px;
+}
+
+.logo {
+    height: 399px;
+    /* border: 1px solid green; */
+}
+
+#logo {
+    margin-bottom: 75px;
+}
+
+.other-logo {
+    background-color: #f8f8f8;
+    padding: 45px 95px;
+}
+
+.nav-bar {
+    background-color: #f8f8f8;
+    /* border: 1px dashed yellow; */
+    display: flex;
+}
+
+.nav-logo, .search {
+    width: 15%;
+    /* border: 1px solid violet; */
+    min-height: 37px;
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    /* display: inline; */
+    width: 70%;
+    min-height: 37px;
+}
+
+#logo-nav {
+    float: left;
+}
+
+li, a {
+    font-size: x-small;
+    list-style-type: none;
+    color: #7c7c7c;
+}
+
+.bar {
+    margin: 0;
+    padding: 0;
+    vertical-align: center;
+}
+
+#navigation-bar {
+    padding: 0;
+    margin: 0;
+    justify-content: space-evenly;
+}
+
+#dropdown {
+    opacity: .3;
+}
+
+#dropdown:hover {
+    opacity: .8;
+}
+
+.form-search {
+    width: 100%;
+    border-radius: 5%;
+    border: 1px solid;
+    font-size: 15px;
+}
+
+main {
+    padding-top: 85px;
+}
+
+.hero-page {
+    min-height: 525px;
+    /* border: 1px solid red; */
+    padding-bottom: 155px;
+    background-image: url("../img/hero-page.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 102%;
+}
+
+#hero_logo {
+    float: left;
+    padding-left: 95px;
+}
+
+.hero_inside {
+    display: flex;
+    padding-top: 70px;
+}
+
+.hero_text, .hero_slider {
+    width: 50%;
+    min-height: 150px;
+}
+
+.name_recipe {
+    margin-top: 40px;
+    color: #921026;
+    font-family: 'Playfair Display', serif;
+    font-size: 24pt;
+}
+
+.main_recipe {
+    font-size: 16pt;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+    margin: 0 95px;
+}
+
+.hero_logo {
+    height: 105px;
+}
+
+#two, #three, #four {
+    display: none;
+}
+
+.recipees {
+    min-height: 375px;
+    border: 1px solid green;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.recipe-one {
+    min-height: 200px;
+    min-width: 33%;
+    border: 1px dashed pink;
+    padding-top: 45px;
+}
+
+.img-recipe {
+    width: 313px;
+    height: 208px;
+    margin: auto;
+}
+
+.img-name {
+    margin-top: 20px;
+    font-size: 18pt;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+}
