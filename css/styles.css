@@ -232,14 +232,14 @@ i, p {
 }
 
 /* 404 */
-.error, .autor {
+.error, .author {
     width: 520px;
     height: 520px;
     background-color: #ffffff;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-.autor-404 {
+.author-404 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 80px;
@@ -252,8 +252,8 @@ i, p {
     background-position: center;
 }
 
-.error>p {
-    font-size: 20pt;
+.head {
+    font-size: 13pt;
     font-family: 'Josefin Sans', sans-serif;
     padding: 10px;
     margin: 0 25px;
@@ -280,10 +280,118 @@ h2 {
     margin-bottom: 10px;
 }
 
-#back {
+.button {
     padding: 0 40px;
     font-size: 12pt;
     font-family: 'Josefin Sans', sans-serif;
     border: 1px solid #a9a9a9;
     background-color: #ffffff;
+}
+
+.author_inside {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 25px;
+}
+
+.name {
+    border-bottom: 1px solid #dddddd;
+}
+
+.simple_text {
+    /* border-bottom: 1px solid #dddddd; */
+    width: 100%;
+    font-size: 11pt;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.author_info {
+    width: 70%;
+    /* border: 1px dotted blue; */
+    text-align: left;
+}
+
+.author_photo {
+    width: 30%;
+    /* border: 1px dashed red; */
+}
+
+h3 {
+    font-size: 19pt;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.signature {
+    text-align: right;
+}
+
+h4 {
+    margin: 25px 5px;
+    font-size: 15pt;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.icons {
+    margin-left: 5px;
+}
+
+.about {
+    font-size: 9pt;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+}
+
+/* LOGIN */
+
+.log_in, .sign_in {
+    width: 325px;
+    min-height: 400px;
+    background: #ffffff;
+    margin: 44px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 15px 25px;
+}
+
+.login {
+    display: inline-flex;
+    justify-content: center;
+    margin: 0 102px;
+}
+
+.head_form {
+    font-size: 13pt;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: left;
+    font-weight: bolder;
+    border-bottom: 1px solid #dddddd;
+}
+
+.simple_text_form {
+    width: 100%;
+    font-size: 11pt;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: left;
+    margin: 30px 5px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 11pt;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    border-radius: 5px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    box-shadow: -11px 19px 22px -19px #1a2626 inset;
+}
+
+form {
+    padding: 0 5px;
 }
